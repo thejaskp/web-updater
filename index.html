@@ -15,19 +15,15 @@
         <h1 class="text-center">web updater</h1>
         <h3 class="text-center"> for knowing updates in your required website</h3>
         <div class="row">
-            <div class="col-md-12">
-            <form>
-                <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <label for="inputEmail4"><h2>Link</h2></label>
-                    <input type="text" class="form-control" id="inputEmail4" placeholder="paste your url here">
-                  </div>
-                </div>  
-                <div class="form-group text-right"> 
-                <button type="submit" class="btn btn-primary ">submit</button>
-                </div>  
-              </form>
-            </div>  
+          <div class="col-md-12">
+            <form class="grid" action="/result" method="POST">
+              <label for="Name"><h2>Link</h2></label>
+              <input type="text" class="form-control" id="Name" placeholder="paste your url here">
+              <div class="form-group text-right"> 
+              <button type="submit" class="btn btn-primary ">submit</button>
+              </div>  
+            </form>
+          </div>  
 
         </div>
     </section>
